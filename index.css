@@ -13,11 +13,16 @@
     background-color: #ED661F;
     border-radius: 10px;
 }
-.introduction{
-    background-image: url("https://drive.google.com/file/d/1JOplXxMfjtG7T2gNXmPHHva1tuf8jrXu/view?usp=sharing");
-    background-color: top right;
-    
-
+#introduction{
+    background-image: url("images/image 1.png");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 #exploremore{
     background-color: #ED661F;
@@ -43,18 +48,12 @@
     font-size: 20px;
     margin-left: 50px;
 }
-.Popular{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 40px;
-
-}
 .Great{
     display: flex;
     flex-direction: row;
     padding: 30px;
+    align-items: center;
+    justify-content: space-around;
 
 }
  .Comments{
@@ -92,4 +91,11 @@
     background-color: black;
     color: white;
     text-align: center;
+ }
+ #supplier{ 
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
  }
